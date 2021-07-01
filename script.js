@@ -1,8 +1,3 @@
-// document.querySelector('.message').textContent = ' 🎉 Correct Number';
-
-// document.querySelector(".score").textContent = 10;
-// document.querySelector(".number").textContent = 13;
-
 let secretNumber = Math.floor(Math.random() * 20 + 1);
 let score = 20;
 let highScore = 0;
@@ -18,9 +13,6 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector("h1").textContent = ' Guess My Number! ';
     
 })
-
-
-
 
 document.querySelector(".check").addEventListener("click", function () {
     const guess = Number(document.querySelector(".guess").value);
